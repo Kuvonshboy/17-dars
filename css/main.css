@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 25px auto;
+    padding: 0 16px;
+    
+   
+
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+ul{
+    display: flex;
+}
+
+header li{
+    margin-left: 20px;
+}
+header ul{
+    
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+
+
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+
+    color: #83888F;
+}
+
+header ul li a:hover{
+    color: #83888F;
+
+}
+
+section{
+    background-image: url("../img/coffee.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+}
+
+.section__left{
+    width: 50%
+}
+section h2{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    width: 800px;
+    padding-top: 100px;
+    padding-left: 84px;
+
+
+
+   color: #FEFCF7;
+}
+
+
+section p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 390px;
+    line-height: 26px;
+    padding-top: 25px;
+    padding-left: 84px;
+
+
+
+
+    color: #FEFCF7;
+}
+main{
+    height: 520px;
+    display: flex;
+}
+.main__left{
+    width: 45%;
+}
+.main__right h3{
+   height: 50px; 
+   font-family: 'Fraunces 9pt';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   padding-top: 100px;
+   padding-left: 80px;
+
+
+
+   color: #333D4B;
+
+}
+
+.main__right p{
+    width: 540px;
+    height: 200px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 90px;
+    padding-left: 80px;
+
+
+
+    color: #333D4B;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.card{
+    margin-top: 150px;
+    background-image: url("../img/Bitmap2.svg");
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+
+.card__left h3{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    padding-top: 100px;
+    padding-left: 80px;
+
+
+
+    color: #FEFCF7;
+
+}
+
+.card__left p{
+    width: 500px;
+    height: 100px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 20px;
+    padding-left: 80px;
+
+
+ 
+   color: #FEFCF7;
+
+   mix-blend-mode: normal;
+   opacity: 0.8;
+}
+.card__right{
+    position: relative;
+}
+
+.card__right img{
+    position: absolute;
+    
+    left: 600px;
+    top: -300px;
+    width: 450px;
+    height: 500px;
+}
+
+
+.cars{
+    width: 1050px;
+    height: 380px;
+    display: flex;
+    position: relative;
+}
+.cars h2{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    position: absolute;
+    left: 165px;
+
+
+
+    color: #83888F;
+}
+
+.cards{
+    /* width: 350px; */
+    height:360px;
+    padding-top: 100px;
+    margin-left: 165px;
+  
+}
+.cards h3{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+
+
+
+    color: #333D4B;
+}
+
+.cards p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+
+
+    color: #333D4B;
+}
+
+footer{
+    width: 100%;
+    height: 120px;
+    background-color: rgba(44, 52, 62, 1);
+}
+
+.footer__container{
+    height: 120px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__container ul{
+   
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 10px;
+    /* margin-left: 30px; */
+
+
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+
+    color: #83888F;
+
+}
+.footer__container ul li a{
+    padding-left: 30px;
+}
+
+.footer__container ul li a:hover{
+    color: #FEFCF7;
+    /* padding-top: 30px; */
+    padding-left: 30px;
+    transition: 0.5s;
+}
+
+.iconca{
+    width: 300px;
+  
+}
+
+.iconca a{
+    margin: 30px 10px;
+    
+}
